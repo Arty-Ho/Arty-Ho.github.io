@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://arty-ho.github.io/sitemap.xml 
