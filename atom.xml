@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://arty-ho.github.io/atom.xml" rel="self"/>
   <link href="http://arty-ho.github.io/"/>
-  <updated>2015-04-19T17:37:24+08:00</updated>
+  <updated>2015-04-19T21:13:07+08:00</updated>
   <id>http://arty-ho.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,5 +12,108 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Markdown]]></title>
+    <link href="http://arty-ho.github.io/blog/2015/04/19/Markdown/"/>
+    <updated>2015-04-19T18:06:03+08:00</updated>
+    <id>http://arty-ho.github.io/blog/2015/04/19/Markdown</id>
+    <content type="html"><![CDATA[<h1>Markdown</h1>
+
+<p><a href="http://en.wikipedia.org/wiki/Markdown">Markdown Wiki</a></p>
+
+<p>Markdown is a markup language with plain text formatting syntax designed so that it can be converted to HTML and many other formats using a tool by the same name. Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.</p>
+
+<hr />
+
+<h1>Install pandoc</h1>
+
+<p><a href="http://pandoc.org">Pandoc</a></p>
+
+<h2>Mac OS X</h2>
+
+<p>brew install pandoc</p>
+
+<h2>centos</h2>
+
+<p>yum install pandoc</p>
+
+<h1>Install Latex</h1>
+
+<p><a href="http://latex-project.org">Latex</a></p>
+
+<h2>Mac OS X</h2>
+
+<p>brew cask install mactex</p>
+
+<h2>Centos</h2>
+
+<p>yum install tetex</p>
+
+<h1>Convert</h1>
+
+<h2>Convert markdown to pdf</h2>
+
+<p>pandoc markdown.md -o markdown.pdf</p>
+
+<h2>Convert markdown to html</h2>
+
+<p>pandoc markdown.md -o markdown.html</p>
+
+<h1>Editor</h1>
+
+<h2>Online</h2>
+
+<p><a href="http://dillinger.io/">Dillinger</a></p>
+
+<p><a href="http://jrham.es/instantmark/">InstantMark</a></p>
+
+<p><a href="http://www.ctrlshift.net/project/markdowneditor/">Online Markdown Editor</a></p>
+
+<p><a href="https://stackedit.io">StackEdit</a></p>
+
+<p><a href="http://www.markdownviewer.com/">Online Markdown Viewer</a></p>
+
+<h2>Mac OS X</h2>
+
+<p><a href="http://macdown.uranusjr.com">Macdown</a></p>
+
+<p><a href="http://25.io/mou/">Mou</a></p>
+
+<h2>windows</h2>
+
+<p><a href="http://markdownpad.com">MarkdownPad</a></p>
+
+<h2>Linux</h2>
+
+<p><a href="http://www.vim.org">Vim</a></p>
+
+<h3>Vim-instant-markdown(option)</h3>
+
+<p>Want to instantly preview finnicky markdown files, but don&rsquo;t want to leave your favorite editor, or have to do it in some crappy browser textarea? vim-instant-markdown is your friend! When you open a markdown file in vim, a browser window will open which shows the compiled markdown in real-time, and closes once you close the file in vim.</p>
+
+<h3>Install vim-instant-markdown</h3>
+
+<p><a href="https://github.com/suan/vim-instant-markdown">vim-instant-markdown</a></p>
+
+<h4>The following steps are used on Mac OS X.</h4>
+
+<ol>
+<li>Install node.js<br/>
+ brew cask install node</li>
+<li>Install instant-markdown-d<br/>
+ sudo npm -g install instant-markdown-d</li>
+<li>Install vim-instant-markdown plugin<br/>
+ Copy the after/ftplugin/markdown/instant-markdown.vim file from this repo into your ~/.vim/after/ftplugin/markdown/</li>
+<li>Ensure you have the line filetype plugin on in your .vimrc</li>
+<li>Add let g:instant_markdown_slow = 1 in your .vimrc</li>
+<li>Make <em>.md as markdown file (add in your .vimrc)
+ autocmd BufNewFile,BufReadPost </em>.md set filetype=markdown</li>
+</ol>
+
+
+<hr />
+]]></content>
+  </entry>
   
 </feed>
